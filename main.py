@@ -18,7 +18,7 @@ top_p=0.95
 max_tokens=32000
 logprobs=20
 max_model_len = 35000
-print_steps = False
+print_steps = True
 
 #------------------------------------prompt dataset and tokenizer------------------------------------------------------#
 
