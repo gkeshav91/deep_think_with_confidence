@@ -25,11 +25,14 @@ The main.py script processes all the generated traces to:
 3. Observations
 
 Three representative examples are illustrated below:
+
 	1.	Case 1 – High consensus:
 Most traces converge to the correct solution early and maintain high confidence throughout.
+
 	2.	Case 2 – Partial success:
 Only a subset of traces arrive at the correct solution.
 A notable observation is that correct traces exhibit distinctly higher tail confidence values, aligning with the hypothesis presented in the Deep Think with Confidence paper — that tail confidence can serve as a strong indicator of correctness.
+
 	3.	Case 3 – No correct solutions:
 None of the traces reach the correct answer.
 Interestingly, the absolute confidence values remain low across all tokens, suggesting that a confidence-based metric could be used to:
